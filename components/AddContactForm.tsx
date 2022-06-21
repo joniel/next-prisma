@@ -44,7 +44,7 @@ export default function AddContactForm(props: AddContactFormProps) {
         <Input
           placeholder="Avatar"
           name="avatar"
-          formRef={register({ required: true })}
+          formRef={register({ required: false })}
         />
         {errors.avatar && <FormError errorMessage="Avatar is required" />}
       </InputSpacer>

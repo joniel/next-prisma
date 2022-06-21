@@ -9,13 +9,13 @@ export default function ContactCard(props: ContactCardProps) {
   return (
     <div className="border rounded-lg p-4 flex">
       <div className="my-auto">
-        <Image
+        {/* <Image
           src={props.contact.avatar}
           alt="Avatar"
           width={40}
           height={40}
           className="rounded-full"
-        />
+        /> */}
       </div>
       <div className="ml-4">
         <p className="text-xl text-gray-700">
